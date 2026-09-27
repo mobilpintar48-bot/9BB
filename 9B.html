@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KELAS 9B</title>
+  </head>
+  <body>
+    <div id="jam"></div>
+      <script>
+        function tampilkanJam() {
+      const waktu = new Date();
+
+      let jam = waktu.getHours();
+      let menit = waktu.getMinutes();
+      let detik = waktu.getSeconds();
+
+      jam = String(jam).padStart(2, "0");
+      menit = String(menit).padStart(2, "0");
+      detik = String(detik).padStart(2, "0");
+
+      document.getElementById("jam").innerHTML =
+        jam + ":" + menit + ":" + detik;
+    }
+
+    setInterval(tampilkanJam, 1000);
+    tampilkanJam();
+          
+      
+      </script>
+   <h1>PROFIL 9B</h1>
+  <hr>
+  <p>"Gak akan ada yang sia-sia, capekmu hari ini adalah investasi masa depanmu."</p>
+
+  <h3>TINGKAT</h3>
+    
+    <p>IX 9B</p>
+
+   <h3>!TENTANG KELAS</h3>
+
+   <p>Kelas 9B bukan sekadar nama kelas, tapi tempat berkumpulnya calon-calon orang hebat di masa depan.</p>
+
+  <h3>MOTTO KELAS</h3>
+  <p>Setiap masa ada orangnya
+  dan setiap orang ada masanya</p>
+
+
+  <h3>Nilai nilai kelas 9b</h3>
+
+   <ul>
+     <ol>Saling peduli</ol>
+     <ol>kekompakan</ol>
+     <ol>tanggung jawab</ol>
+     <ol>jujur</ol>
+   </ul>
+  <br>
+  <hr>
+ <a href="Halaman 1.html">Selanjutnya</a>
+  <hr>
+  <br>
+  <small>©AZKA FAIQ RIZQULLOH</small><br>
+  <a href="https://wa.me/083123431305">HUBUNGI KAMI JIKA TERJADI BUG</a><br>
+  
+
+  
+
+    
+  </body>
+</html>

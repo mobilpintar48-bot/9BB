@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>ANGGOTA</title>
+  </head>
+  <body>
+    <h1>ANGGOTA KELAS</h1>
+    <br>
+    <hr>
+    <div id="jam"></div>
+
+  <script>
+    function tampilkanJam() {
+      const waktu = new Date();
+
+      let jam = waktu.getHours();
+      let menit = waktu.getMinutes();
+      let detik = waktu.getSeconds();
+
+      jam = String(jam).padStart(2, "0");
+      menit = String(menit).padStart(2, "0");
+      detik = String(detik).padStart(2, "0");
+
+      document.getElementById("jam").innerHTML =
+        jam + ":" + menit + ":" + detik;
+    }
+
+    setInterval(tampilkanJam, 1000);
+    tampilkanJam();
+  </script>
+  <hr>
+    
+<h2>TOTAL MURID</h2>
+   <p>27</p>
+<br>
+<h2>WALI KELAS</h2>
+  <img src="images/IMG_20260927_125010.jpg alt="Wali kelas" width="500"
+    <P>©DONA MEGA AYUNDA</P>
+<h2>Daftar siswa & siswi</h2>
+    
+    
+  </body>
+</html>
